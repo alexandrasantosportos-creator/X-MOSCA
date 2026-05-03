@@ -4,14 +4,14 @@ import { useState, useEffect, useRef } from "react";
 import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 
 const DEFAULT_IMAGES = {
-  logo: "artifact_logo_xo_mosca.png",
-  hero_banner: "https://primitive-rose-yqgo0dthi5.edgeone.app/examınatıon%20(3).png",
-  lifestyle: "input_file_1.png",
-  comparison: "https://urgent-yellow-1pocbggmgn.edgeone.app/escova.png",
-  social_1: "input_file_1.png",
-  social_2: "https://energetic-tomato-68gwah99we.edgeone.app/ChatGPT%20Image%202%20de%20mai.%20de%202026,%2022_05_29.png",
-  social_3: "input_file_0.png",
-  social_4: "input_file_1.png",
+  logo: "https://identical-maroon-vjzcanpirl.edgeone.app/ChatGPT%20Image%202%20de%20mai.%20de%202026,%2021_22_55.png",
+  hero_banner: "https://images.unsplash.com/photo-1558444479-c8f0279159a8?auto=format&fit=crop&q=80",
+  lifestyle: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80",
+  comparison: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+  social_1: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80",
+  social_2: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
+  social_3: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80",
+  social_4: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80",
 };
 
 const fadeIn = {
