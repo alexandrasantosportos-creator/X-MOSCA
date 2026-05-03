@@ -4,9 +4,9 @@ import { useState, useEffect, useRef } from "react";
 import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 
 const DEFAULT_IMAGES = {
-  logo: "https://identical-maroon-vjzcanpirl.edgeone.app/ChatGPT%20Image%202%20de%20mai.%20de%202026,%2021_22_55.png",
-  hero_banner: "https://images.unsplash.com/photo-1558444479-c8f0279159a8?auto=format&fit=crop&q=80",
-  lifestyle: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80",
+  logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=200&h=60",
+  hero_banner: "https://images.unsplash.com/photo-1583003290500-ad7944116c4c?auto=format&fit=crop&q=80",
+  lifestyle: "https://images.unsplash.com/photo-1585409677983-0f6c21f9f3b3?auto=format&fit=crop&q=80",
   comparison: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
   social_1: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80",
   social_2: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
@@ -75,6 +75,7 @@ function LandingPage({ images, setImages, isEditMode }: { images: any, setImages
     const [purchase, setPurchase] = useState({ name: "", city: "" });
 
     const names = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda", "Gustavo", "Helena", "Igor", "Juliana", "Lucas", "Mariana", "Otávio", "Priscila", "Ricardo", "Sandra", "Tiago", "Vanessa"];
+    const cities = ["São Paulo, SP", "Rio de Janeiro, RJ", "Belo Horizonte, MG", "Curitiba, PR", "Porto Alegre, RS", "Salvador, BA", "Fortaleza, CE", "Brasília, DF", "Recife, PE", "Manaus, AM", "Goiânia, GO", "Belém, PA", "Florianópolis, SC", "Vitória, ES", "Natal, RN"];
 
     useEffect(() => {
       const showNotification = () => {
